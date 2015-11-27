@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.Health">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView18"
+        android:background="@drawable/health"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="\n1. You’ll Live Longer if You Quit Smoking.\n\n2.As soon as you quit, your body begins to repair the damage caused by smoking.\n\n3.Your heart rate and blood pressure drops almost immediately, and within weeks your circulation and ability to breathe improve dramatically.\n\n4. You’ll also look better. Smoking prematurely ages the skin, causing wrinkles. Smoking stains your teeth, fingers, and fingernails, and causes bad breath."
+        android:id="@+id/textView16"
+        android:layout_below="@+id/imageView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" /></LinearLayout></ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.How">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView16"
+        android:background="@drawable/tips"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="\n\n\n\n1.It's never too late to quit. While it's best \nto quit smoking as early as possible, \nquitting smoking at any age will enhance \nthe length and quality of your life.
+\n\n2.Learn from past experiences. \nSometimes people get \ndiscouraged thinking about previous \nattempts. Treat those experiences as steps on the road to future success. Think about what helped you during those tries and what you'll do differently in your next quit attempt.
+\n\n3.You don't have to quit alone. Telling friends and family that you're trying to quit and enlisting their support will help ease the process.
+\n\n4.Medication can help, if you know what to do. The seven FDA-approved medications (like nicotine patches or gum) really do help smokers quit.
+\n\n5.We firmly believe that every smoker can quit. Each person needs to find the right combination of techniques for them and above all, they need to keep trying."
+        android:id="@+id/textView14"
+        android:layout_alignTop="@+id/imageView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+</LinearLayout></ScrollView>
+
+</RelativeLayout>

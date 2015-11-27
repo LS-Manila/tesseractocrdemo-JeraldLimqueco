@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jerald.huffpuff" >
+
+    <permission
+        android:name="com.example.jerald.huffpuff.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+     The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+             Google Maps Android API
+    v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CigaretteContent"
+            android:label="@string/title_activity_cigarette_content" >
+        </activity>
+        <activity
+            android:name=".Acetone"
+            android:label="@string/title_activity_acetone" >
+        </activity>
+        <activity
+            android:name=".Lead"
+            android:label="@string/title_activity_lead" >
+        </activity>
+        <activity
+            android:name=".Formaldehyde"
+            android:label="@string/title_activity_formaldehyde" >
+        </activity>
+        <activity
+            android:name=".Nicotine"
+            android:label="@string/title_activity_nicotine" >
+        </activity>
+        <activity
+            android:name=".Effects"
+            android:label="@string/title_activity_effects" >
+        </activity>
+        <activity
+            android:name=".Baby"
+            android:label="@string/title_activity_baby" >
+        </activity>
+        <activity
+            android:name=".Image"
+            android:label="@string/title_activity_image" >
+        </activity>
+        <activity
+            android:name=".Reproductive"
+            android:label="@string/title_activity_reproductive" >
+        </activity>
+        <activity
+            android:name=".Digestive"
+            android:label="@string/title_activity_digestive" >
+        </activity>
+        <activity
+            android:name=".Integumentary"
+            android:label="@string/title_activity_integumentary" >
+        </activity>
+        <activity
+            android:name=".Central"
+            android:label="@string/title_activity_central" >
+        </activity>
+        <activity
+            android:name=".Cardio"
+            android:label="@string/title_activity_cardio" >
+        </activity>
+        <activity
+            android:name=".Respiratory"
+            android:label="@string/title_activity_respiratory" >
+        </activity>
+        <activity
+            android:name=".Iwanttoquit"
+            android:label="@string/title_activity_iwanttoquit" >
+        </activity>
+        <activity
+            android:name=".Reasons"
+            android:label="@string/title_activity_reasons" >
+        </activity>
+        <activity
+            android:name=".How"
+            android:label="@string/title_activity_how" >
+        </activity>
+        <activity
+            android:name=".Expect"
+            android:label="@string/title_activity_expect" >
+        </activity>
+        <activity
+            android:name=".Convenience"
+            android:label="@string/title_activity_convenience" >
+        </activity>
+        <activity
+            android:name=".Wallet"
+            android:label="@string/title_activity_wallet" >
+        </activity>
+        <activity
+            android:name=".Family"
+            android:label="@string/title_activity_family" >
+        </activity>
+        <activity
+            android:name=".Health"
+            android:label="@string/title_activity_health" >
+        </activity>
+        <activity
+            android:name=".Benefits"
+            android:label="@string/title_activity_benefits" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".Maintain"
+            android:label="@string/title_activity_maintain" >
+        </activity>
+        <activity
+            android:name=".Keep"
+            android:label="@string/title_activity_keep" >
+        </activity>
+        <activity
+            android:name=".Urge"
+            android:label="@string/title_activity_urge" >
+        </activity>
+        <activity
+            android:name=".Stay"
+            android:label="@string/title_activity_stay" >
+        </activity>
+        <activity
+            android:name=".Reward"
+            android:label="@string/title_activity_reward" >
+        </activity>
+        <activity
+            android:name=".Lean"
+            android:label="@string/title_activity_lean" >
+        </activity>
+        <activity
+            android:name=".Support"
+            android:label="@string/title_activity_support" >
+        </activity>
+        <activity
+            android:name=".Calendar1"
+            android:label="@string/title_activity_calendar1" >
+        </activity>
+        <activity
+            android:name=".Checklist"
+            android:label="@string/title_activity_checklist" >
+        </activity>
+        <activity
+            android:name=".Splash1"
+            android:label="@string/title_activity_splash1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash2"
+            android:label="@string/title_activity_splash2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".event"
+            android:label="@string/title_activity_event" >
+        </activity>
+        <activity
+            android:name=".OCR2"
+            android:label="@string/title_activity_ocr2"
+            android:configChanges="orientation|screenSize">
+        </activity>
+    </application>
+
+</manifest>

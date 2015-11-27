@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.Digestive">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"> <TextView android:text="\tSmokers are at great risk of developing oral problems. Tobacco use can cause gum inflammation (gingivitis) or infection (periodontitis). These problems can lead to tooth decay, tooth loss, and bad breath.
+\n\tSmoking also increases risk of cancer of the mouth, throat, larynx, and esophagus. Smokers have higher rates of kidney cancer and pancreatic cancer. Even cigar smokers who don’t inhale are at increased risk of mouth cancer.
+\n\tSmoking also has an effect on insulin, making it more likely that you’ll develop insulin resistance. That puts you at increased risk of type 2 diabetes. When it comes to diabetes, smokers tend to develop complications at a faster rate than nonsmokers.
+\n\tSmoking also depresses
+appetite, so you may not be
+getting all the nutrients
+your body needs.
+Withdrawal from tobacco
+products can cause nausea."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView11"
+        android:background="@drawable/digest"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" /></LinearLayout></ScrollView>
+
+</RelativeLayout>

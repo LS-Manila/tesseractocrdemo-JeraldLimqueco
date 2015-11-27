@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.Baby">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView9"
+        android:background="@drawable/baby"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The effects of maternal smoking on an unborn baby include:
+
+\n\n1. increased risk of miscarriage, stillbirth and premature birth
+\n2. low birth weight, which may have a lasting effect of the growth and development of children. Low birth weight is associated with an increased risk of heart disease, stroke, high blood pressure, being overweight and diabetes in adulthood
+\n3. increased risk of cleft palate and cleft lip
+\n4. paternal smoking can also harm the fetus if the non-smoking mother is exposed to second-hand smoke.
+
+\n\nIf a parent continues to smoke during their baby’s first year of life, the child has an increased risk of ear infections, respiratory illnesses such as pneumonia and bronchitis, sudden infant death
+syndrome (SIDS) and
+meningococcal disease. "
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    </LinearLayout></ScrollView>
+</RelativeLayout>

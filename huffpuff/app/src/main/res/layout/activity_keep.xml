@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.Keep">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView24"
+        android:background="@drawable/keep"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="\n\n\t\tYour body has changed since you began to smoke. Your brain has learned to crave nicotine. So certain people, places, things, and situations can trigger a strong urge to smoke‚ even years after quitting. That's why you should never take a puff again‚ no matter how long it has been since you quit.
+\n\n\t\tAfter you've quit‚ the urge to smoke often hits at the same times. For many people‚ the hardest place to resist the urge is at home. And many urges hit when someone else is smoking nearby. Identify your smoking triggers so you can be prepared for a temptation. If a craving hits, use the skills you've learned."
+        android:id="@+id/textView21"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    </LinearLayout></ScrollView>
+</RelativeLayout>

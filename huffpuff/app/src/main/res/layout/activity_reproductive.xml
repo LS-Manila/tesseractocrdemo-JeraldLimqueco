@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.Reproductive">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <TextView android:text="\tRestricted blood flow can affect a man’s ability to get an erection. Both men and women who smoke may have difficulty achieving orgasm and are at higher risk of infertility. Women who smoke may experience menopause at an earlier age than nonsmoking women. Smoking increases a woman’s risk of cervical cancer.
+\n\tSmokers experience more complications of pregnancy, including miscarriage, problems with the placenta, and premature delivery.
+\n\tPregnant mothers who are exposed to secondhand smoke are also more likely to have a baby with low birth weight. Babies born to mothers who smoke while pregnant are at greater risk of low birth weight, birth defects, and sudden infant death syndrome (SIDS). Newborns who breathe secondhand smoke suffer more ear infections and asthma attacks."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/repro"
+        android:id="@+id/imageView12"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout></ScrollView>
+</RelativeLayout>

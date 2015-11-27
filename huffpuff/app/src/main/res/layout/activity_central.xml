@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.Central"
+    android:background="@drawable/nerve2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <TextView android:text="\tOne of the ingredients in tobacco is a mood-altering drug called nicotine. Nicotine reaches your brain in mere seconds. It’s a central nervous system stimulant, so it makes you feel more energized for a little while. As that effect subsides, you feel tired and crave more.
+Smoking increases risk of macular degeneration, cataracts, and poor eyesight. It can also weaken your sense of taste and sense of smell, so food may become less enjoyable.
+Your body has a stress hormone called corticosterone, which lowers the effects of nicotine. If you’re under a lot of stress, you’ll need more nicotine to get the same effect.
+Physical withdrawal from smoking can impair your cognitive functioning and make you feel anxious, irritated, and depressed. Withdrawal can also cause headaches and sleep problems."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" /></LinearLayout></ScrollView>
+
+</RelativeLayout>

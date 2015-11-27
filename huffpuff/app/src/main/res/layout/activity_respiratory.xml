@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jerald.huffpuff.Respiratory">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView14"
+        android:background="@drawable/lung"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="\tWhen you inhale smoke, you’re taking in substances that can damage your lungs. Over time, your lungs lose their ability to filter harmful chemicals. Coughing can’t clear out the toxins sufficiently, so these toxins get trapped in the lungs. Smokers have a higher risk of respiratory infections, colds, and flu.
+\n\tIn a condition called emphysema, the air sacs in your lungs are destroyed. In chronic bronchitis, the lining of the tubes of the lungs becomes inflamed. Over time, smokers are at increased risk of developing these forms of chronic obstructive pulmonary disease. Long-term smokers are also at increased risk of lung cancer.
+\n\tWithdrawal from tobacco products can cause temporary congestion and respiratory pain as your lungs begin to clear out.
+\n\tChildren whose parents
+smoke are prone to
+coughing, wheezing,
+asthma attacks, ear
+infections and have
+higher rates of
+pneumonia and
+bronchitis."
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" /></LinearLayout></ScrollView>
+</RelativeLayout>
